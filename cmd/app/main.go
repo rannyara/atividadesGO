@@ -3,14 +3,21 @@
 package main
 
 // Importa os pacotes necessários
+
 import (
 	"fmt"
 
-	"github.com/seu-usuario/meu-projeto-go/internal/hello"
+	"github.com/rannyara/meu-projeto-go/internal/fibonacci"
+	"github.com/rannyara/meu-projeto-go/internal/hello"
 )
 
 // Função principal do programa
 func main() {
-	fmt.Println("🚀 Minha primeira atividade em GO!")
+	fmt.Println("🚀 Fiz Minha primeira atividade em GO!")
 	hello.SayHello()
+
+	// Testar a função Fibonacci
+	n := 10
+	result := fibonacci.Fibonacci(n)
+	fmt.Printf("O %dº número de Fibonacci é: %d\n", n, result)
 }

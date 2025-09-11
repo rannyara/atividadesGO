@@ -1,3 +1,3 @@
-module github.com/seu-usuario/meu-projeto-go
+module github.com/rannyara/meu-projeto-go
 
 go 1.22
